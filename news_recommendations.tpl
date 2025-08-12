@@ -37,7 +37,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #333;">
       <div class="container">
-        <a class="navbar-brand" href="/">Рекомендации</a>
+        <a class="navbar-brand" href="/">Рекомендации {{ score }}</a>
         <div>
           <a class="btn btn-outline-light me-2" href="/news">
             <i class="bi bi-arrow-left"></i> Вернуться
@@ -75,4 +75,5 @@
     </div>
   </body>
 </html>
+
 
